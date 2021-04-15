@@ -1,1 +1,3 @@
-# E-commerce app using React
+# E-commerce app
+
+## Tools used:  NodeJS, React
