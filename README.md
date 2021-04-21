@@ -1,3 +1,3 @@
 # E-commerce app
 
-## Technologies used:  NodeJS, React, Firebase
+## Technologies used:  NodeJS, React, Firebase, Redux
