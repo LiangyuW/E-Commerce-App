@@ -1,8 +1,8 @@
 
 
 
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+  appetizers: {
     id: 1,
     title: 'Appetizers',
     routeName: 'appetizers',
@@ -63,7 +63,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  friedrice: {
     id: 2,
     title: 'Fried Rice',
     routeName: 'friedrice',
@@ -118,7 +118,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  soup: {
     id: 3,
     title: 'Soup',
     routeName: 'soup',
@@ -155,7 +155,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  noodles: {
     id: 4,
     title: 'Noodles',
     routeName: 'noodles',
@@ -204,7 +204,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  seafood: {
     id: 5,
     title: 'Seafood',
     routeName: 'seafood',
@@ -247,6 +247,6 @@ const SHOP_DATA = [
       }
     ]
   }
-];
+};
 
 export default SHOP_DATA;
