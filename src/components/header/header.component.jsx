@@ -23,7 +23,7 @@ const Header=({currentUser, hidden})=> (
             <Link className='options' to='/shop'>
                 ORDER
             </Link>
-            <Link className='options' to='/shop'>
+            <Link className='options' to='/contact'>
                 CONTACT
             </Link>
             {
