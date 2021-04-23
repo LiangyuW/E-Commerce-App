@@ -66,7 +66,7 @@ const SHOP_DATA = [
   {
     id: 2,
     title: 'Fried Rice',
-    routeName: 'fried-rice',
+    routeName: 'friedrice',
     items: [
       {
         id: 10,
