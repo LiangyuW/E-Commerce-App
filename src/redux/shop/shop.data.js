@@ -2,64 +2,64 @@
 
 
 const SHOP_DATA = {
-  appetizers: {
+  dimsums: {
     id: 1,
-    title: 'Appetizers',
-    routeName: 'appetizers',
+    title: 'Dimsums',
+    routeName: 'dimsums',
     items: [
       {
         id: 1,
-        name: 'Brown Brim',
-        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-        price: 25
+        name: 'Shrimp Dumplings',
+        imageUrl: 'https://i.ibb.co/svTgY8h/shrimp-dumplings.jpg',
+        price: 7
       },
       {
         id: 2,
-        name: 'Blue Beanie',
-        imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-        price: 18
+        name: 'Soup Dumplings',
+        imageUrl: 'https://i.ibb.co/hfY8GC8/soup-dumplings.jpg',
+        price: 10
       },
       {
         id: 3,
-        name: 'Brown Cowboy',
-        imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
-        price: 35
+        name: 'Sesame Seed Balls',
+        imageUrl: 'https://i.ibb.co/BCkQKkg/sesame-seed-balls.jpg',
+        price: 7
       },
       {
         id: 4,
-        name: 'Grey Brim',
-        imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
-        price: 25
+        name: 'Gyoza',
+        imageUrl: 'https://i.ibb.co/MsyVLCX/Gyoza.jpg',
+        price: 7
       },
       {
         id: 5,
-        name: 'Green Beanie',
-        imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
-        price: 18
+        name: 'Spring Rolls',
+        imageUrl: 'https://i.ibb.co/DgC9GSQ/spring-rolls.jpg',
+        price: 6
       },
       {
         id: 6,
-        name: 'Palm Tree Cap',
-        imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
-        price: 14
+        name: 'Fried Crab Claws',
+        imageUrl: 'https://i.ibb.co/rbfcNzM/crabclaw.jpg',
+        price: 15
       },
       {
         id: 7,
-        name: 'Red Beanie',
-        imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
-        price: 18
+        name: 'Egg Custard Buns',
+        imageUrl: 'https://i.ibb.co/6bXwkSj/egg-custard-bun.jpg',
+        price: 10
       },
       {
         id: 8,
-        name: 'Wolf Cap',
-        imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
-        price: 14
+        name: 'Mango Pudding',
+        imageUrl: 'https://i.ibb.co/1MsFczn/mango-pudding.jpg',
+        price: 8
       },
       {
         id: 9,
-        name: 'Blue Snapback',
-        imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
-        price: 16
+        name: 'Fried Bananas',
+        imageUrl: 'https://i.ibb.co/Ch9kMz4/fried-banana.jpg',
+        price: 7
       }
     ]
   },
@@ -70,51 +70,51 @@ const SHOP_DATA = {
     items: [
       {
         id: 10,
-        name: 'Adidas NMD',
-        imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
-        price: 220
+        name: 'Beef Fried Rice',
+        imageUrl: 'https://i.ibb.co/X42m84J/beef-fried-rice.jpg',
+        price: 25
       },
       {
         id: 11,
-        name: 'Adidas Yeezy',
-        imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
-        price: 280
+        name: 'Eel Fried Rice',
+        imageUrl: 'https://i.ibb.co/WvLxh6G/eel-fried-rice.jpg',
+        price: 35
       },
       {
         id: 12,
-        name: 'Black Converse',
-        imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
-        price: 110
+        name: 'Garlic Fried Rice',
+        imageUrl: 'https://i.ibb.co/GvQfFBz/garlic-fried-rice.jpg',
+        price: 18
       },
       {
         id: 13,
-        name: 'Nike White AirForce',
-        imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
-        price: 160
+        name: 'Pineapple Fried Rice',
+        imageUrl: 'https://i.ibb.co/rHnrh9D/pineapple-fried-rice.jpg',
+        price: 30
       },
       {
         id: 14,
-        name: 'Nike Red High Tops',
-        imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
-        price: 160
+        name: 'Tomato Egg Fried Rice',
+        imageUrl: 'https://i.ibb.co/dtP2bNh/tomato-egg-friedrice.jpg',
+        price: 20
       },
       {
         id: 15,
-        name: 'Nike Brown High Tops',
-        imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
-        price: 160
+        name: 'Xinjiang Fried Rice',
+        imageUrl: 'https://i.ibb.co/jRJxS64/xinjinag-friedrice.jpg',
+        price: 23
       },
       {
         id: 16,
-        name: 'Air Jordan Limited',
-        imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
-        price: 190
+        name: 'Yangzhou Fried Rice',
+        imageUrl: 'https://i.ibb.co/xD9BqY2/Yangzhou-Fried-Rice.jpg',
+        price: 20
       },
       {
         id: 17,
-        name: 'Timberlands',
-        imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
-        price: 200
+        name: 'Chicken Fried Rice',
+        imageUrl: 'https://i.ibb.co/zbxKv7D/chicken-fried-rice.jpg',
+        price: 20
       }
     ]
   },
@@ -125,33 +125,33 @@ const SHOP_DATA = {
     items: [
       {
         id: 18,
-        name: 'Black Jean Shearling',
-        imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
-        price: 125
+        name: 'Vegetable Soup',
+        imageUrl: 'https://i.ibb.co/c8YvG2R/vegetable-soup.jpg',
+        price: 10
       },
       {
         id: 19,
-        name: 'Blue Jean Jacket',
-        imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
-        price: 90
+        name: 'Tomato Eggdrop Soup',
+        imageUrl: 'https://i.ibb.co/nBx3Qkk/tomato-egg-drop-soup.jpg',
+        price: 10
       },
       {
         id: 20,
-        name: 'Grey Jean Jacket',
-        imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
-        price: 90
+        name: 'Sweet And Sour Soup',
+        imageUrl: 'https://i.ibb.co/18bzxMm/sweet-sour-soup.jpg',
+        price: 13
       },
       {
         id: 21,
-        name: 'Brown Shearling',
-        imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
-        price: 165
+        name: 'Daikon Raddish Soup',
+        imageUrl: 'https://i.ibb.co/KmS8RW9/daikon-raddish.jpg',
+        price: 15
       },
       {
         id: 22,
-        name: 'Tan Trench',
-        imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
-        price: 185
+        name: 'Snow Fungus Soup',
+        imageUrl: 'https://i.ibb.co/x3BSkxx/snow-fungus-soup.jpg',
+        price: 20
       }
     ]
   },
@@ -162,45 +162,45 @@ const SHOP_DATA = {
     items: [
       {
         id: 23,
-        name: 'Blue Tanktop',
-        imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
+        name: 'Beef Noodle',
+        imageUrl: 'https://i.ibb.co/zm9dPPv/beef-noodle.jpg',
         price: 25
       },
       {
         id: 24,
-        name: 'Floral Blouse',
-        imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
-        price: 20
+        name: 'Fish Cutlet Noodle',
+        imageUrl: 'https://i.ibb.co/kcw17tK/fish-cutlet-noodle.jpg',
+        price: 25
       },
       {
         id: 25,
-        name: 'Floral Dress',
-        imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
-        price: 80
+        name: 'Pork Cutlet Noodle',
+        imageUrl: 'https://i.ibb.co/2tmDN9m/pork-cutlet-noodle.jpg',
+        price: 22
       },
       {
         id: 26,
-        name: 'Red Dots Dress',
-        imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
-        price: 80
+        name: 'Scalloped Pork Noodle',
+        imageUrl: 'https://i.ibb.co/S5G3rJX/scalloped-pork-noodle.jpg',
+        price: 35
       },
       {
         id: 27,
-        name: 'Striped Sweater',
-        imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
-        price: 45
+        name: 'Shrimp Noodle',
+        imageUrl: 'https://i.ibb.co/MstRCB1/shrimp-noodle.jpg',
+        price: 30
       },
       {
         id: 28,
-        name: 'Yellow Track Suit',
-        imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
-        price: 135
+        name: 'Soybean Paste Noodle',
+        imageUrl: 'https://i.ibb.co/Rj57YSn/soybean-paste-noodle.jpg',
+        price: 20
       },
       {
         id: 29,
-        name: 'White Blouse',
-        imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
-        price: 20
+        name: 'Xinjiang Noodle',
+        imageUrl: 'https://i.ibb.co/855dkFJ/xinjiang-noodle.jpg',
+        price: 23
       }
     ]
   },
@@ -211,39 +211,39 @@ const SHOP_DATA = {
     items: [
       {
         id: 30,
-        name: 'Camo Down Vest',
-        imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
-        price: 325
+        name: 'Sweet And Sour Fish Fillets',
+        imageUrl: 'https://i.ibb.co/r3fMcmz/sweet-sour-fish.jpg',
+        price: 35
       },
       {
         id: 31,
-        name: 'Floral T-shirt',
-        imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
-        price: 20
+        name: 'Shrimp And Scallops In Creamy Garlic',
+        imageUrl: 'https://i.ibb.co/6mwXsBq/scallops.jpg',
+        price: 35
       },
       {
         id: 32,
-        name: 'Black & White Longsleeve',
-        imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
-        price: 25
+        name: 'Wild Alaskan Salmon Fillets',
+        imageUrl: 'https://i.ibb.co/pbwDL5J/salmon.jpg',
+        price: 50
       },
       {
         id: 33,
-        name: 'Pink T-shirt',
-        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
-        price: 25
+        name: 'Sauteed Lobster with Ginger and Scallion',
+        imageUrl: 'https://i.ibb.co/fQSCRJm/lobster.jpg',
+        price: 50
       },
       {
         id: 34,
-        name: 'Jean Long Sleeve',
-        imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
-        price: 40
+        name: 'Garlic Butter Crab',
+        imageUrl: 'https://i.ibb.co/mTBtFZg/crab.jpg',
+        price: 80
       },
       {
         id: 35,
-        name: 'Burgundy T-shirt',
-        imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
-        price: 25
+        name: 'Squirrel Fish',
+        imageUrl: 'https://i.ibb.co/XsQNM9F/squirrelfish.jpg',
+        price: 125
       }
     ]
   }
